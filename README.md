@@ -4,9 +4,9 @@
 ![Sitemap](sitemap.png)
 Contributors: Davron Ochilov, Mehruj Kamal
 
-Davron Ochilov: This assignment greatly developed my abilities in web design, I was able to create a wireframe with a proper layout, flow and functionality. With my partner's insights I created a wireframe on pen and paper with many different components that I thought were neccesarry for the creation of the website. We went over the term project requirements and made sure our website would fit most of the future criteria. 
+**Davron Ochilov**: This assignment greatly developed my abilities in web design, I was able to create a wireframe with a proper layout, flow and functionality. With my partner's insights I created a wireframe on pen and paper with many different components that I thought were neccesarry for the creation of the website. We went over the term project requirements and made sure our website would fit most of the future criteria. 
 
-Mehruj Kamal:  During this project I practically learned what wireframing is and how sitemap should be constructed based on the design layout. I learned how wireframes and sitemaps should be constructed for a better architecture of a website we have in mind and how to efficiently clarify the website features so that it is more responsive and user friendly. I worked alongside my project partner to plan and design the wireframe of the website. I also created the sitemap with the help of my partner’s perception. 
+**Mehruj Kamal**:  During this project I practically learned what wireframing is and how sitemap should be constructed based on the design layout. I learned how wireframes and sitemaps should be constructed for a better architecture of a website we have in mind and how to efficiently clarify the website features so that it is more responsive and user friendly. I worked alongside my project partner to plan and design the wireframe of the website. I also created the sitemap with the help of my partner’s perception. 
 
 Purpose of the chalkboard website is for teachers to add courses and maintain the roster, instructor list and course contents. The students can access all the materials, attempt assignments, get their grades and contact info of the instructors.
  
