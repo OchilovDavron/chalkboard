@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>ChalkBoard SignUp</title>
+
+<div>
+    <img src="./chalkboardLogo.jpg" alt="Logo" height="50px" width="50px"
+        style="position: relative; top: 0rem; left: 0">
+</div>
+
+<div>
+    <img src="./userIcon.png" alt="userIcon" height="50px" width="50px"
+        style="position: absolute; top: 0.5rem; right:6rem; ">
+    <a href="#logout" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
+</div>
+<h2>All Courses</h2>
+
+<body>
+    <div style="border:1px solid #ccc">
+        <h3><u>Current Courses</u></h3>
+        <figure>
+            <a href="calc2.html">
+            <img src="./calc.jpg" alt="calculus2" height="100px" width="100px">
+            <img src="./cross.png" alt="deleteCourse" height="30px" width="30px" float="left">
+
+                
+            </a>
+            
+            <figcaption><b><a href="calc2.html">Mathematics 152: Infinite series</a></b></figcaption>
+
+        </figure>
+        <figure>
+            <a href="./hist2">
+            <img src="./hist.jpg" alt="history102" height="100px" width="100px">
+            <img src="./cross.png" alt="deleteCourse" height="30px" width="30px" float="left">
+
+            <figcaption><b><a href="./hist2">History 102: Civil War</a></b></figcaption>
+        </figure>
+        <figure>
+            <a href="./database2">
+            <img src="./Database331.jpg" alt="database331" height="100px" width="100px">
+            <img src="./cross.png" alt="deleteCourse" height="30px" width="30px" float="left">
+
+            <figcaption><b><a href="./database2">CSCI 331: Database System</a></b></figcaption>
+
+        </figure>
+
+        <div>
+            <label for="semester"><b>Term</b></label>
+            <select name="term" id="semester">
+                <option value="empty"></option>
+                <option value="Fall2020">Fall 2020</option>
+                <option value="Spring2021">Spring 2021</option>
+                <option value="Summer2021">Summer 2021</option>
+
+            </select><br>
+            <input type="text" placeholder="Search Course Number">
+            <button type="button" data-form-type=""><i> Search</i></button><br>
+
+
+
+            <button type="button">
+                <img src="add.png" alt="addClass" height="20px" width="25px"><br>
+                <strong>Add Course</strong>
+            </button>
+        </div>
+
+    </div>
+
+    <div style="border:1px solid rgb(145, 129, 129)">
+        <h3><u>Previous Courses</u></h3>
+        <figure>
+            <a href="./archaeology2">
+
+            <img src="./arch.jpg" alt="archaeology" height="100px" width="100px">
+            <img src="./cross.png" alt="deleteCourse" height="30px" width="30px" float="left">
+
+            <figcaption><b><a href="./archaeology2">Archeology 103: Civilization</a></b></figcaption>
+
+        </figure>
+        <figure>
+            <a href="./cloud2">
+
+            <img src="./cloud.jpg" alt="cloudComputing" height="100px" width="100px">
+            <img src="./cross.png" alt="deleteCourse" height="30px" width="30px" float="left">
+
+            <figcaption><b><a href="./cloud2">CSCI 381: Applied Cloud Computing</a></b></figcaption>
+        </figure>
+        <figure>
+            <a href="./web2">
+
+            <img src="./web.jpg" alt="webTech" height="100px" width="100px">
+            <img src="./cross.png" alt="deleteCourse" height="30px" width="30px" float="left">
+
+            <figcaption><b><a href="./web2">CSCI 355: Web technology</a></b></figcaption>
+
+        </figure>
+
+
+
+
+
+    </div>
+</body>
+
+
+</html>
