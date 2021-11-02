@@ -26,7 +26,7 @@
                 
             </a>
             
-            <figcaption><b><a href="calc2.html">Mathematics 152: Infinite series</a></b></figcaption>
+            <figcaption><b><a href="./calc2.html">Mathematics 152: Infinite series</a></b></figcaption>
 
         </figure>
         <figure>
@@ -54,7 +54,18 @@
                 <option value="Summer2021">Summer 2021</option>
 
             </select><br>
-            <input type="text" placeholder="Search Course Number">
+            <label for="courseName"><b>Course</b></label>
+            <input type="text" placeholder="CSCI"><br>
+            <label for="courseNum"><b>Course Number</b></label>
+            <select name="course" id="courseNum">
+                <option value="empty"></option>
+                <option value="equal">equal to</option>
+                <option value="greater ">greater than and equal to</option>
+                <option value="less">less than and equal to</option>
+
+            </select>
+            <input type="text" placeholder="355"><br>
+           
             <button type="button" data-form-type=""><i> Search</i></button><br>
 
 
@@ -102,6 +113,7 @@
 
     </div>
 </body>
+
 
 
 </html>
