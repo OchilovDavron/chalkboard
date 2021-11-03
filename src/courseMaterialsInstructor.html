@@ -13,31 +13,36 @@
          style="position: absolute; top: 0.5rem; right:6rem; ">
     <a href="index.html" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
 
-    <body id="courseMaterialsIns">
+    <body id="courseMaterials">
     <nav>
-        <a href="#courseMaterialsIns">Course Materials</a> |
-        <a href="./calcInstructor.html">Overview</a>|
-        <a href="./rosterInstructor.html">Roster</a> |
-        <a href="./announcementInstructor.html">Announcement</a> |
-        
-        <a href="./instructorInstructor.html">Instructors</a>
-    
-
+        <a href="#courseMaterials">Course Materials</a> |
+        <a href="./announcementInstructor.html">Announcements</a> |
+    <a href="./rosterInstructor.html">Roster</a> |
+    <a href="./calcInstructor.html">Overview</a>|
+    <a href="./instructorInstructor.html">Instructors</a>
 
     </nav>
+    <button class="btn add">Add new</button>
+    <button class="btn delete">Delete</button>
+
 
     <h3><b>Course Materials</b></h3>
     <section>
         <div id="description">
-            <p>Book #1 </p>
+            <input type="radio" id="material" name="material" value="material" >
+     <label for="material">Book #1</label>
+           
             <img src="./calbook1.jpg" alt="book1" height="200px" width="200px">
             <p> Calculus Single and Mulitvariable<br>
             by Gleasson McCallum</p>
+            <input type="radio" id="material" name="material" value="material" >
+     <label for="material">Book #2</label>
+           
             <img src="./calbook2.jpg" alt="book2" height="200px" width="200px">
             <p>Calulus Early Transcendentals<br>
                 by Briggs Cochran </p>
 
-            <p>If you have any questions, please find my contact information at <a href="./announcement.html">Instructors</a></p>
+            <p>Go to: <a href="./announcement.html">Instructors</a></p>
         </div>
     </section>
     <section style="border:1px solid gray">
@@ -88,7 +93,7 @@
         </table>
 
     </section>
-    <footer><a href="./courses.html">Go back to your courses</a></footer>
+    <footer><a href="./instructorCourses.html">Go back to your courses</a></footer>
 
     </body>
 </html>
