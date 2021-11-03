@@ -1,7 +1,7 @@
 # chalkboard
-![Student Wireframe](wireframe.png)
-![Instructor Wireframe](wireframe2.png)
-![Admin Wireframe](wirefram3.png)
+![Student Wireframe](wireframe_1.png)
+![Instructor Wireframe](wireframe_2.png)
+![Admin Wireframe](wireframe_3.png)
 ![Sitemap](sitemap.png)
 Contributors: Davron Ochilov, Mehruj Kamal
 
