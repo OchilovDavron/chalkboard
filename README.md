@@ -2,7 +2,7 @@
 ![Student Wireframe](wireframe_1.png)
 ![Instructor Wireframe](wireframe_2.png)
 ![Admin Wireframe](wireframe_3.png)
-![Sitemap](sitemap.png)
+![Sitemap](sitemap mk.png)
 Contributors: Davron Ochilov, Mehruj Kamal
 
 The link to the website: https://ochilovdavron.github.io/chalkboard/src
