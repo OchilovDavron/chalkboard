@@ -3,63 +3,69 @@
 <meta charset="UTF-8">
 <title>Math 152 Instructors</title>
 
-<div>
-    <img src="images/actuallogo.png" alt="Logo" height="70" width="100"
-        style="position: relative; top: -0.75rem">
-</div>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/mycss.css">
 
-<div>
-    <a href="./instructorlogin.html" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
-</div>
+<nav class="navbar sticky-top navbar-light" style="background-color: #607ddd;">
+    <img src="images/actuallogo.png" alt="Logo" class="logo" height="70" width="100">
+    <a href="./login.html" class="btn btn-warning" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
+
+</nav>
 
 <body>
-    <nav>
-        <a href="./studentassignment.html">Assignments</a>|
-        <a href="./instructor.html">Instructors</a>|
-        <a href="./courseMaterials.html">Course Materials</a> |
-        <a href="./roster.html">Roster</a>
-
-
+    <nav aria-label="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"> <a href="./courseMaterials.html" class="breadcrumb-item">Course Materials</a>
+            </li>
+            <li class="breadcrumb-item"><a href="./roster.html" class="breadcrumb-item">Roster</a> </li>
+            <li class="breadcrumb-item"><a href="./instructor.html" class="breadcrumb-item">Instructors</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="./studentassignment.html">Assignments</a>
+            </li>
+        </ul>
     </nav>
-<section>
-    <table>
-        <caption><b>Assignments</b></caption>
-         <tr>
-            <th><form action="./Math152Assign3.html">
-                <button type="submit">Assignment 3</button>
-             </form></th>
-            <td>Due: 11/21/21</td>
-            <td>grade:__</td>
 
-            </th>
-           
-         </tr>
-         <tr>
-           
-            <th><form action="./Math152Assignt2.html">
-                <button type="submit">Assignment 2</button>
-             </form></th></th>
-            <td>Due: 11/01/21</td>
-            <td>grade: 70%</td>
+    <section class="table-responsive">
+        <table class="table table-striped">
+            <tr>
+                <th>
+                    <a href="./Math152Assign3.html"  class="btn btn-info">Assignment 3</a>
+                </th>
+                <td>Due: 11/21/21</td>
+                <td>grade:__</td>
 
-            
-            
+                </th>
 
-          
-         </tr>
-         <tr>
-           
-            <th><form action="./Math152Assign1.html">
-                <button type="submit">Assignment 1</button>
-             </form></th></th>
-            <td>Due: 10/12/21</td>
-            <td>grade: 80%</td>
+            </tr>
+            <tr>
+
+                <th>
+                    <a href="./Math152Assign3.html"  class="btn btn-info">Assignment 2</a>
+                </th>
+                </th>
+                <td>Due: 11/01/21</td>
+                <td>grade: 70%</td>
+            </tr>
+            <tr>
+
+                <th>
+                    <a href="./Math152Assign3.html"  class="btn btn-info">Assignment 1</a>
+                </th>
+                </th>
+                <td>Due: 10/12/21</td>
+                <td>grade: 80%</td>
 
 
-         </tr>
-        
-      </table>
+            </tr>
 
-  </section>
-  </body>
-  </html>
+        </table>
+
+    </section>
+</body>
+
+<footer>
+    <div class="bottomlinks" style="margin-top: 50px;">
+        <a href="./courses.html" class="btn btn-warning">Go back to your courses</a>
+    </div>
+</footer>
+
+</html>

@@ -2,7 +2,7 @@
 ![Student Wireframe](wireframe_1.png)
 ![Instructor Wireframe](wireframe_2.png)
 ![Admin Wireframe](wireframe_3.png)
-![Sitemap](sitemap.png)
+![Sitemap](sitemap_mk.png)
 Contributors: Davron Ochilov, Mehruj Kamal
 
 The link to the website: https://ochilovdavron.github.io/chalkboard/src
@@ -19,7 +19,8 @@ Student View:
 Students get directed towards their current and old courses. They have the ability to search up a course and add it for approval. 
 If they are already approved in a course upon clicking on the course they can access the navigation bar.On the navigation they can access overview, announcements by the instructor, course materials, recordings and instructor contact info. They can view all the assignments due and attempt them. After clicking on a particular assignment they can add answers and attach files. They can submit or save a draft.
 Teacher’s view: 
-Instructors can go to the class roster on the navigation bar and approve students.On the navigation they can access overview, add and remove announcements,add and remove course materials, recordings and even add new instructors, remove them or leave by themselves . They can view, add or remove assignments, add answer keys, grade the student’s submission and put feedback. After clicking on a particular assignment they can add answers and attach files. They can see both submission or saved draft.
+Instructors can go to the class roster and approve students.On the navigation they can access overview, add and remove course materials, recordings and even add new instructors, remove them or leave by themselves . They can view, add or remove assignments, add answer keys, grade the student’s submission and put feedback. After clicking on a particular assignment they can add answers and attach files. They can see both submission or saved draft.
+There's an admin view, where the admin can only see the way instructors put up the course and the way students view and interact with the website.
 
 
 

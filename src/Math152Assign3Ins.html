@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Math 152 Instructors</title>
+<title>Math 152 Instructor</title>
 
-<div>
-    <img src="images/chalkboardLogo.jpg" alt="Logo" height="50" width="50"
-        style="position: relative; top: 0rem;">
-</div>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/mycss.css">
+<nav class="navbar sticky-top navbar-light" style="background-color: #607ddd;">
+    <img src="images/actuallogo.png" alt="Logo" clas s="logo" height="70" width="100">
+    <a href="./instructorlogin.html" class="btn btn-warning" style="position: absolute; top: 2rem; right:2.5rem ">Log
+        Out</a>
 
-<div>
-    <a href="./instructorlogin.html" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
-</div>
+</nav>
 
 <body>
-    <nav>
-        <a href="./ins-assignment.html">Assignments</a>|
-        <a href="./instructorInstructor">Instructors</a>|
-        <a href="./courseMaterialsInstructor.html">Course Materials</a> |
-        <a href="./rosterInstructor.html">Roster</a>
-
-
+    <nav aria-label="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"> <a href="./courseMaterialsInstructor.html" class="breadcrumb-item">Course
+                    Materials</a>
+            </li>
+            <li class="breadcrumb-item"><a href="./rosterInstructor.html" class="breadcrumb-item">Roster</a> </li>
+            <li class="breadcrumb-item"><a href="./instructorInstructor.html" class="breadcrumb-item">Instructors</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="./ins-assignment.html">Assignments</a></li>
+        </ul>
     </nav>
     <h1>Asssignment Status</h1>
-    <table>
-        <caption><b>Assignments</b></caption>
+    <table class="table table-striped">
         <tr>
             <th>Assignment</th>
             <th>Student</th>
@@ -34,9 +36,7 @@
         <tr>
 
             <td>
-                <form action="./Math152Assign3.html">
-                    <button type="submit">View Attempt</button>
-                </form>
+                <a href="./Math152Assign3.html" class="btn btn-info">View Attempt</a>
             </td>
             <td>Mehruj Kamal</td>
             <td>Not Submitted</td>
@@ -45,9 +45,7 @@
         <tr>
 
             <td>
-                <form action="./Math152Assign3.html">
-                    <button type="submit">View Attempt</button>
-                </form>
+                <a href="./Math152Assign3.html" class="btn btn-info">View Attempt</a>
             </td>
             <td>Twinkle Patel</td>
             <td>Not Submitted</td>
@@ -56,9 +54,7 @@
         <tr>
 
             <td>
-                <form action="./Math152Assign3.html">
-                    <button type="submit">View Attempt</button>
-                </form>
+                <a href="./Math152Assign3.html" class="btn btn-info">View Attempt</a>
             </td>
             <td>Katie Holmes</td>
             <td>Not Submitted</td>
@@ -69,7 +65,7 @@
     </table>
     <section>
         <form method="get" action="Edit-Math152-ins.html">
-            <button type="submit"> Edit Assignment</button>
+            <button type="submit" class="btn btn-success"> Edit Assignment</button>
         </form>
 
     </section>
