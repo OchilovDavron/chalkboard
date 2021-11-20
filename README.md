@@ -5,6 +5,7 @@
 ![Sitemap](sitemap_mk.png)
 Contributors: Davron Ochilov, Mehruj Kamal
 
+
 The link to the website: https://ochilovdavron.github.io/chalkboard/src
 
 **Davron Ochilov**: This assignment greatly developed my abilities in web design, I was able to create a wireframe with a proper layout, flow and functionality. With my partner's insights I created a wireframe on pen and paper with many different components that I thought were neccesarry for the creation of the website. We went over the term project requirements and made sure our website would fit most of the future criteria. 
