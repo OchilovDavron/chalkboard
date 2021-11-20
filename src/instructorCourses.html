@@ -3,85 +3,56 @@
 <meta charset="UTF-8">
 <title>My Courses</title>
 
-<div>
-    <img src="images/chalkboardLogo.jpg" alt="Logo" height="50px" width="50px"
-        style="position: relative; top: 0rem; left: 0">
-</div>
+<link rel="styelsheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="styelsheet" type="text/css" href="css/mycss.css">
 
-<div>
-    <img src="images/userIcon.png" alt="userIcon" height="50px" width="50px"
-        style="position: absolute; top: 0.5rem; right:6rem; ">
-    <a href="#logout" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
-</div>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+<nav class="navbar sticky-top navbar-light" style="background-color: #607ddd;">
+    <img src="images/actuallogo.png" alt="Logo" class="logo" height="70" width="100">
+    <a href="./instructorlogin.html" class="btn btn-warning" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
+    
+</nav>
 <h2>All Courses</h2>
 
 <body>
-    <div style="border:1px solid #ccc">
+    <div>
         <h3><u>Current Courses</u></h3>
         <figure>
-            <a href="calcInstructor.html">
-            <img src="images/calc.jpg" alt="calculus2" height="100px" width="100px">
-            <img src="images/cross.png" alt="deleteCourse" height="30px" width="30px" float="left">
-
-                
+            <a href="./courseMaterialsInstructor.html">
+                <img src="images/calc.jpg" alt="calculus2" height="100" width="100">
             </a>
-            
-            <figcaption><b><a href="./calcInstructor.html">Mathematics 152: Infinite series</a></b></figcaption>
 
+            <figcaption><b><a href="./courseMaterialsInstructor.html">Mathematics 152: Infinite series</a></b>
+                <button type="button" >Leave Course</button></figcaption>
         </figure>
-        
+
         <figure>
-            <a href="./databaseInstructor.html">
-            <img src="images/Database331.jpg" alt="database331" height="100px" width="100px">
-            <img src="images/cross.png" alt="deleteCourse" height="30px" width="30px" float="left">
+            <a href="./courseMaterialsInstructor.html">
+                <img src="images/Database331.jpg" alt="database331" height="100" width="100">
 
-            <figcaption><b><a href="./databaseInstructor.html">CSCI 331: Database System</a></b></figcaption>
+                <figcaption><b><a href="./courseMaterialsInstructor.html">CSCI 331: Database System</a></b>
+                    <button type="button" >Leave Course</button></figcaption></figcaption>
 
         </figure>
-
-        <div>
-            <label for="semester"><b>Term</b></label>
-            <select name="term" id="semester">
-                <option value="empty"></option>
-                <option value="Fall2020">Fall 2020</option>
-                <option value="Spring2021">Spring 2021</option>
-                <option value="Summer2021">Summer 2021</option>
-
-            </select><br>
-            <label for="courseName"><b>Course</b></label>
-            <input type="text" placeholder="CSCI"><br>
-            <label for="courseNum"><b>Course Number</b></label>
-            <select name="course" id="courseNum">
-                <option value="empty"></option>
-                <option value="equal">equal to</option>
-                <option value="greater ">greater than and equal to</option>
-                <option value="less">less than and equal to</option>
-
-            </select>
-            <input type="text" placeholder="355"><br>
-           
-            <button type="button" data-form-type=""><i> Search</i></button><br>
-
-
-
-            <button type="button">
-                <img src="images/add.png" alt="addClass" height="20px" width="25px"><br>
-                <strong>Add Course</strong>
-            </button>
-        </div>
 
     </div>
 
-    <div style="border:1px solid rgb(145, 129, 129)">
+    <button type="button"><a href="./addcourseinstructor.html">ADD COURSES</a></button><br>
+
+    <div>
         <h3><u>Previous Courses</u></h3>
-        
+
         <figure>
-            <a href="./webInstructor.html">
+            <a href="./courseMaterialsInstructor.html">
 
-            <img src="images/web.jpg" alt="webTech" height="100px" width="100px">
-            <img src="images/cross.png" alt="deleteCourse" height="30px" width="30px" float="left">
+                <img src="images/web.jpg" alt="webTech" height="100" width="100">
 
-            <figcaption><b><a href="./webInstructor.html">CSCI 355: Web technology</a></b></figcaption>
+                <figcaption><b><a href="./courseMaterialsInstructor.html">CSCI 355: Web technology</a></b>
+                    <button type="button" >Leave Course</button></figcaption></figcaption>
 
         </figure>
 

@@ -3,96 +3,63 @@
 <meta charset="UTF-8">
 <title>Math 152 Instructor</title>
 
-<div>
-    <img src="images/chalkboardLogo.jpg" alt="Logo" height="50px" width="50px"
-        style="position: relative; top: 0rem; left: 0">
-</div>
+<link rel="styelsheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="styelsheet" type="text/css" href="css/mycss.css">
 
-<div>
-    <img src="images/userIcon.png" alt="userIcon" height="50px" width="50px"
-        style="position: absolute; top: 0.5rem; right:6rem; ">
-    <a href="index.html" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
-</div>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-<body id="instructor">
-    <nav>
-        <a href="#instructor">Instructors</a> |
-        <a href="./announcement.html">Announcement</a> |
-        <a href="./courseMaterials.html">Course Materials</a> |
-        <a href="./calc2.html">Overview</a>|
-        <a href="./roster.html">Roster</a>
 
-    </nav>
+<nav class="navbar sticky-top navbar-light" style="background-color: #607ddd;">
+    <img src="images/actuallogo.png" alt="Logo" class="logo" height="70" width="100">
+    <a href="./login.html" class="btn btn-warning" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
+    
+</nav>
 
-    <section>
+
+
+    <body >
+        <nav aria-label="breadcrumb">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"> <a href="./courseMaterials.html" class="breadcrumb-item">Course Materials</a>
+                </li>
+                <li class="breadcrumb-item"><a href="./roster.html" class="breadcrumb-item">Roster</a> </li>
+                <li class="breadcrumb-item"><a href="./instructor.html" class="breadcrumb-item">Instructors</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a
+                        href="./studentassignment.html">Assignments</a></li>
+            </ul>
+        </nav>
+
+    <section class="text-center">
         <h3><b>Instructors:</b></h3>
-        <figure>
+        <div class="card" style="width: 10rem;">
+            <img src="images/inst1.jpg" class="card-img-top" alt="instructorpic">
+            <div class="card-body">
+                <p>Annie Halls</p>
+                <a href="mailto:AnnieHalls@KC.edu">contact</a>
+            </div>
+        </div>
 
-            <img src="images/inst1.jpg" alt="instructor" height="70px" width="70px">
-            <figcaption><b>Annie Halls</b><br><a href="mailto:AnnieHalls@KC.edu">contact</a></figcaption>
+        <div class="card" style="width: 10rem;">
+            <img src="images/Lucas.jpg" class="card-img-top" alt="instructorpic">
+            <div class="card-body">
+                <p>Lucas Greene</p>
+                <a href="mailto:LucasGreene@KC.edu">contact</a>
+            </div>
+        </div>
 
-        </figure>
-
-        <figure>
-
-            <img src="./Lucas.jpg" alt="instructor" height="70px" width="70px">
-            <figcaption><b>Lucas Greene</b><br><a href="mailto:LucasGreene@KC.edu">contact</a></figcaption>
-
-        </figure>
-
-        <figure>
-
-            <img src="./andy.jpg" alt="instructor" height="70px" width="70px">
-            <figcaption><b>Andy Kelvin</b><br><a href="mailto:AndyKelvin@KC.edu">contact</a></figcaption>
-
-        </figure>
-
-
-
-
+        <div class="card" style="width: 10rem;">
+            <img src="images/andy.jpg" class="card-img-top" alt="instructorpic">
+            <div class="card-body">
+                <p>Andy Kelvin</p>
+                <a href="mailto:AndyKelvin@KC.edu">contact</a>
+            </div>
+        </div>
+       
     </section>
-    <section style="border:1px solid gray">
-        <table>
-            <caption><b>Assignments</b></caption>
-             <tr>
-                <th><form action="./Math152Assign3.html">
-                    <button type="submit">Assignment 3</button>
-                 </form></th>
-                <td>Due: 11/21/21</td>
-                <td>grade:__</td>
-    
-                </th>
-               
-             </tr>
-             <tr>
-               
-                <th><form action="./Math152Assign2.html">
-                    <button type="submit">Assignment 2</button>
-                 </form></th></th>
-                <td>Due: 11/01/21</td>
-                <td>grade: 70%</td>
-    
-                
-                
-    
-              
-             </tr>
-             <tr>
-               
-                <th><form action="./Math152Assign1.html">
-                    <button type="submit">Assignment 1</button>
-                 </form></th></th>
-                <td>Due: 10/12/21</td>
-                <td>grade: 80%</td>
-    
-    
-             </tr>
-            
-          </table>
-    
-      </section>
-
+   
 </body>
-<footer><a href="./courses.html">Go back to your courses</a></footer>
+<footer><a href="./courses.html" class="btn btn-warning">Go back to your courses</a></footer>
 
 </html>
