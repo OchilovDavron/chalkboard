@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ChalkBoard Login</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/mycss.css">
 
 <body class="text-center">
 
-
+   
   <nav class="navbar sticky-top navbar-light" style="background-color: #607ddd;">
     <img src="images/actuallogo.png" alt="Logo" class="logo" height="70" width="100">
   </nav>
+  <div class="navbarindexlogin"></div>
   <nav class="nav justify-content-center" style="margin-top: 50px; margin-bottom: 100px;">
     <a href="./login.html" class="btn btn-primary">Student</a>
     <a href="./instructorlogin.html" class="btn btn-primary">Instructor</a>
     <a href="./adminlogin.html" class="btn btn-primary">Admin</a>
   </nav>
+  </div>
 
 
   <form action="action_page.php" method="post" class="form-inline">
@@ -29,8 +32,7 @@
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br>
 
-      <a href="courses.html" class="btn btn-primary" id="loginbutton"
-        style="margin-top: 30px; margin-bottom: 30px">Login</a><br>
+      <a href="courses.html" class="btn btn-primary" id="loginbutton">Login</a><br>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
