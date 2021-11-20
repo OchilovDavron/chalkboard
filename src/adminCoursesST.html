@@ -5,115 +5,81 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/mycss.css">
 
-<div>
-    <button type="Student"><a href="adminCoursesST.html">Student</a></button>
-    <button type="Instructor"><a href="adminCoursesIN.html">Instructor</a></button>
-</div>
-<div>
-    <img src="images/chalkboardLogo.jpg" alt="Logo" height="50" width="50"
-         style="position: relative; top: 0rem; left: 0">
-</div>
+<nav class="navbar sticky-top navbar-light" style="background-color: #607ddd;">
+    <img src="images/actuallogo.png" alt="Logo" class="logo" height="70" width="100">
+    <a href="./login.html" class="btn btn-warning" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
+
+</nav>
 
 <div>
-    <a href="index.html" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
+    <a href="./login.html" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
 </div>
-<h2>All Courses</h2>
+
+<nav class="nav justify-content-center">
+    <a href="./courses.html" class="btn btn-primary">Student</a>
+    <a href="./instructorCourses.html" class="btn btn-primary">Instructor</a>
+</nav>
+<h2 class="text-center">All Courses:</h2>
 
 <body>
-<div style="border:1px solid #ccc">
-    <h3><u>Current Courses</u></h3>
-    <figure>
-        <a href="./courseMaterials.html">
-            <img src="images/calc.jpg" alt="calculus2" height="100" width="100">
-            
 
+    <h3 class="text-center"><u>Current Courses</u></h3>
+    <div class="mycontainer">
+        <div class="card" style="width: 18rem;">
+            <a href="./courseMaterials.html">
+                <img src="images/calc.jpg" class="card-img-top" alt="calcimage">
+            </a>
+            <div class="card-body">
+                <a href="./courseMaterials.html" class="btn btn-primary">Mathematics 152: Infinite series</a>
+            </div>
+        </div>
 
-        </a>
+        <div class="card" style="width: 18rem;">
+            <a href="./courseMaterials.html">
+                <img src="images/hist.jpg" class="card-img-top" alt="calcimage">
+            </a>
+            <div class="card-body">
+                <a href="./courseMaterials.html" class="btn btn-primary">History 102: Civil War</a>
+            </div>
+        </div>
 
-        <figcaption><b><a href="./courseMaterials.html">Mathematics 152: Infinite series</a></b></figcaption>
-
-    </figure>
-    <figure>
-        <a href="./courseMaterials.html">
-            <img src="images/hist.jpg" alt="history102" height="100" width="100">
-            
-            <figcaption><b><a href="./courseMaterials.html">History 102: Civil War</a></b></figcaption>
-    </figure>
-    <figure>
-        <a href="./courseMaterials.html">
-            <img src="images/Database331.jpg" alt="database331" height="100" width="100">
-           
-            <figcaption><b><a href="./courseMaterials.html">CSCI 331: Database System</a></b></figcaption>
-
-    </figure>
-
-    <div>
-        <label for="semester"><b>Term</b></label>
-        <select name="term" id="semester">
-            <option value="empty"></option>
-            <option value="Fall2020">Fall 2020</option>
-            <option value="Spring2021">Spring 2021</option>
-            <option value="Summer2021">Summer 2021</option>
-
-        </select><br>
-        <label for="courseName"><b>Course</b></label>
-        <input type="text" placeholder="CSCI"><br>
-        <label for="courseNum"><b>Course Number</b></label>
-        <select name="course" id="courseNum">
-            <option value="empty"></option>
-            <option value="equal">equal to</option>
-            <option value="greater ">greater than and equal to</option>
-            <option value="less">less than and equal to</option>
-
-        </select>
-        <input type="text" placeholder="355"><br>
-
-        <button type="button" data-form-type=""><i> Search</i></button><br>
-
-
-
-        <button type="button">
-            <img src="add.png" alt="addClass" height="20" width="25"><br>
-            <strong>Add Course</strong>
-        </button>
+        <div class="card" style="width: 18rem;">
+            <a href="./courseMaterials.html">
+                <img src="images/arch.jpg" class="card-img-top" alt="calcimage">
+            </a>
+            <div class="card-body">
+                <a href="./courseMaterials.html" class="btn btn-primary">Archeology 103: Civilization</a>
+            </div>
+        </div>
     </div>
 
-</div>
-
-<div>
-    <h3><u>Previous Courses</u></h3>
-    <figure>
-        <a href="./courseMaterials.html">
-
-            <img src="images/arch.jpg" alt="archaeology" height="100" width="100">
-            <img src="images/cross.png" alt="deleteCourse" height="30" width="30" float="left">
-
-            <figcaption><b><a href="./courseMaterials.html">Archeology 103: Civilization</a></b></figcaption>
-
-    </figure>
-    <figure>
-        <a href="./courseMaterials.html">
-
-            <img src="images/cloud.jpg" alt="cloudComputing" height="100" width="100">
-            <img src="images/cross.png" alt="deleteCourse" height="30" width="30" float="left">
-
-            <figcaption><b><a href="./courseMaterials.html">CSCI 381: Applied Cloud Computing</a></b></figcaption>
-    </figure>
-    <figure>
-        <a href="./courseMaterials.html">
-
-            <img src="images/web.jpg" alt="webTech" height="100" width="100">
-            <img src="images/cross.png" alt="deleteCourse" height="30" width="30" float="left">
-
-            <figcaption><b><a href="./courseMaterials.html">CSCI 355: Web technology</a></b></figcaption>
-
-    </figure>
 
 
 
+    <a href="./addcourse.html" class="btn btn-success" id="addcourse">ADD COURSES</a><br>
 
+   
+        <h3 class="text-center"><u>Previous Courses</u></h3>
+        <div class="mycontainer">
+        <div class="card" style="width: 18rem;">
+            <a href="./courseMaterials.html">
+                <img src="images/cloud.jpg" class="card-img-top" alt="calcimage">
+            </a>
+            <div class="card-body">
+                <a href="./courseMaterials.html" class="btn btn-primary">History 102: Civil War</a>
+            </div>
+        </div>
 
-</div>
+        <div class="card" style="width: 18rem;">
+            <a href="./courseMaterials.html">
+                <img src="images/cloud.jpg" class="card-img-top" alt="calcimage">
+            </a>
+            <div class="card-body">
+                <a href="./courseMaterials.html" class="btn btn-primary">CSCI 381:Cloud Computing</a>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 

@@ -2,75 +2,67 @@
 <html lang="en">
 <meta charset="UTF-8">
 <title>My Courses</title>
+
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/mycss.css">
-<div>
-    <img src="images/actuallogo.png" alt="Logo" height="70" width="100" style="position: relative; top: -0.75rem">
-</div>
 
-<div>
-    <a href="./login.html" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
-</div>
+<nav class="navbar sticky-top navbar-light" style="background-color: #607ddd;">
+    <img src="images/actuallogo.png" alt="Logo" class="logo" height="70" width="100">
+    <a href="./instructorlogin.html" class="btn btn-warning" style="position: absolute; top: 2rem; right:2.5rem ">Log Out</a>
+    
+</nav>
+
 <nav class="nav justify-content-center">
     <a href="./courses.html" class="btn btn-primary">Student</a>
     <a href="./instructorCourses.html" class="btn btn-primary">Instructor</a>
 </nav>
-<h2>All Courses</h2>
+<h2 class="text-center">All Courses</h2>
 
 <body>
-    <di>
-        <h3><u>Current Courses</u></h3>
-        <figure>
-            <a href="./courseMaterials.html">
-                <img src="images/calc.jpg" alt="calculus2" height="100" width="100">
-            </a>
+    
+        <h3 class="text-center"><u>Current Courses</u></h3>
+        <div class="mycontainer">
+            <div class="card" style="width: 18rem;">
+                <a href="./courseMaterialsInstructor.html">
+                    <img src="images/calc.jpg" class="card-img-top" alt="calcimage">
+                </a>
+                <div class="card-body">
+                    <a href="./courseMaterialsInstructor.html" class="btn btn-primary">Mathematics 152: Infinite series</a><br>
+                    <button type="button" class="btn btn-danger" >Leave Course</button>
 
-            <figcaption><b><a href="./courseMaterials.html">Mathematics 152: Infinite series</a></b></figcaption>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <a href="./courseMaterialsInstructor.html">
+                    <img src="images/hist.jpg" class="card-img-top" alt="calcimage"></a>
+                <div class="card-body">
+                    <a href="./courseMaterialsInstructor.html" class="btn btn-primary">History 102: Civil War</a>
+                    <button type="button" class="btn btn-danger" >Leave Course</button>
 
-        </figure>
-        <figure>
-            <a href="./courseMaterials.html">
-                <img src="images/hist.jpg" alt="history102" height="100" width="100">
-
-                <figcaption><b><a href="./courseMaterials.html">History 102: Civil War</a></b></figcaption>
-        </figure>
-
-
+                </div>
+            </div>
+    
         </div>
-        <button type="button"><a href="./addcourse.html">ADD COURSES</a></button><br>
 
-        <div>
-            <h3><u>Previous Courses</u></h3>
-            <figure>
-                <a href="./courseMaterials.html">
+   
 
-                    <img src="images/arch.jpg" alt="archaeology" height="100" width="100">
+  <a href="./addcourseinstructor.html" class="btn btn-success" id="addcourse">ADD COURSES</a><br>
+  <h3 class="text-center"><u>Previous Courses</u></h3>
 
 
-                    <figcaption><b><a href="./courseMaterials.html">Archeology 103: Civilization</a></b></figcaption>
+    <div class="mycontainer" >
+       
+        <div class="card" style="width: 18rem;">
+            <a href="./courseMaterialsInstructor.html">
+                <img src="images/hist.jpg" class="card-img-top" alt="calcimage"></a>
+            <div class="card-body">
+                <a href="../courseMaterialsInstructor.html" class="btn btn-primary">History 102: Civil War</a>
+                <button type="button" class="btn btn-danger" >Leave Course</button>
 
-            </figure>
-            <figure>
-                <a href="./courseMaterials.html">
-
-                    <img src="images/cloud.jpg" alt="cloudComputing" height="100" width="100">
-
-                    <figcaption><b><a href="./courseMaterials.html">CSCI 381: Applied Cloud Computing</a></b>
-                    </figcaption>
-            </figure>
-            <figure>
-                <a href="./courseMaterials.html">
-
-                    <img src="images/web.jpg" alt="webTech" height="100" width="100">
-
-
-                    <figcaption><b><a href="./courseMaterials.html">CSCI 355: Web technology</a></b></figcaption>
-
-            </figure>
-
+            </div>
         </div>
+
+    </div>
 </body>
-
-
-
 </html>
